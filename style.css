@@ -1,0 +1,60 @@
+body {
+	background-color: #f3f3f3;
+	font-family: sans-serif;
+}
+
+/* side bar with buttons and debug box */
+#action-bar {
+	width: 20vw;
+}
+.action-box {
+	background-color: #fff;
+	margin-top: 12px;
+	padding: 8px;
+	line-height: 130%;
+}
+.box-button {
+	border: 1px solid #000;
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+/* debug box related */
+.hidden {
+	display: none;
+}
+#pi {
+	position: absolute;
+	color: #ccc;
+	cursor: pointer;
+}
+#debug-msg {
+	border: 1px solid #aaa;
+}
+
+/* game graphics */
+.autist {
+	height: 128px;
+	width: 128px;
+	box-shadow: 0px 0px 32px #bbb;
+	position: absolute;
+	cursor: pointer;
+}
+.popup, .popup img {
+	height: 64px;
+	width: 64px;
+	position: absolute;
+	transition: all 1s;
+}
+.item {
+	/*background-color: #00f;*/
+	height: 64px;
+	width: 64px;
+	box-shadow: 0px 0px 32px #bbb;
+	position: absolute;
+	cursor: pointer;
+}
